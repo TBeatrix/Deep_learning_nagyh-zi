@@ -8,11 +8,12 @@ Project description: Friend Recommendation with Graph Neural Networks on the Fac
 
 ##Milestone 1
 functions of the files in the repository:
-milestone1.ipynb:  A teljes kód google colabon futtatható változata.
-Milestone1        Mappa saját gépen való futtatáshoz
-  - src/main.py   A futtatandó kód
-  - Dockerfile    Dockerban való futtatást előkészítő file
-  - requirements.txt A Docker futtatásához szükséges csomagok és azok használt verziójának a felsorolása
+milestone1.ipynb: The whole code in Goggle Colab file. It contains extra visualizations and the Facebook and Twitter graph.
+Milestone1        Directory to run in docker
+  - src/main.py   Script for data downloading
+  - src/data_preprocess  Script for data preprocessing and splitting
+  - Dockerfile    
+  - requirements.txt packages and their versions for the Dockerfile
 
 related works: 
 datasets:  https://snap.stanford.edu/data/ego-Facebook.html, https://snap.stanford.edu/data/ego-Twitter.html
@@ -30,7 +31,8 @@ OR
 Clone this repository
 Go to the Milestone1 directory in your terminal
   docker build . -t {image_name:tag}
-docker run -it {image_name:tag} bash
-python3 src/data_preprocess.py
+docker run -it {image_name:tag}
+
+
   
   
