@@ -6,7 +6,7 @@ team members: T63K63 - Tugyi Beatrix
 
 Project description: Friend Recommendation with Graph Neural Networks on the Facebook and Twitter datasets.
 
-##Milestone 1
+## Milestone 1
 functions of the files in the repository:
 
 milestone1.ipynb: The whole code in Goggle Colab file. It contains extra visualizations and the Facebook and Twitter graph.
@@ -20,6 +20,7 @@ Milestone1        Directory to run in docker
   - requirements.txt packages and their versions for the Dockerfile
 
 related works: 
+
 datasets:  https://snap.stanford.edu/data/ego-Facebook.html, https://snap.stanford.edu/data/ego-Twitter.html
 
            J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS, 2012.
