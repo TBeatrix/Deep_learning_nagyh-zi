@@ -1,51 +1,47 @@
-# Deep_learning_nagyhazi
+# Deep_Learning_Project
 
-**Team name: Pain & Panic**
-team members: T63K63 - Tugyi Beatrix
-              IT9P0Z - Heizer Levente
+**Team Name: Pain & Panic**  
+Team Members:  
+- T63K63: Tugyi Beatrix  
+- IT9P0Z: Heizer Levente  
 
-Project description: Friend Recommendation with Graph Neural Networks on the Facebook and Twitter datasets.
+**Project Description:** Friend Recommendation using Graph Neural Networks on Facebook and Twitter Datasets
 
 ## Milestone 1
-functions of the files in the repository:
+Description of the repository contents:
 
-milestone1.ipynb: The whole code in Goggle Colab file. It contains extra visualizations and the Facebook and Twitter graph.
-In the end we will hava a Graph object with all of the nessesery properties and the test/train/val masks.
+- `milestone1.ipynb`: This file contains the entire code, housed in a Google Colab notebook. It encompasses visualizations of the Facebook and Twitter graphs, a graph object with all requisite properties, and the test/train/validation masks.
 
-Milestone1        Directory to run in docker
+- `Milestone1` Directory (for Docker execution):  
+  - `src/main.py`: Script for data downloading  
+  - `src/data_preprocess`: Script for data preprocessing and splitting  
+  - `Dockerfile`: Contains the commands a user could call on the command line to assemble an image  
+  - `requirements.txt`: Lists packages and their versions required for the Dockerfile
 
-  - src/main.py   Script for data downloading
-  - src/data_preprocess  Script for data preprocessing and splitting
-  - Dockerfile    
-  - requirements.txt packages and their versions for the Dockerfile
+**Related Works:**  
 
-related works: 
+- **Datasets:**  
+  - [Facebook Dataset](https://snap.stanford.edu/data/ego-Facebook.html)  
+  - [Twitter Dataset](https://snap.stanford.edu/data/ego-Twitter.html)
 
-datasets:  https://snap.stanford.edu/data/ego-Facebook.html, https://snap.stanford.edu/data/ego-Twitter.html
+- **References:**  
+  - J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS, 2012.
 
-J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS, 2012.
-           
-code:
-Node2Vec node preprocessing: https://github.com/aditya-grover/node2vec, 
-           
-https://github.com/VHRanger/nodevectors/blob/master/nodevectors/node2vec.py
-           
-https://networkx.org/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html
+- **Code:**  
+  - Node2Vec Node Preprocessing:
+    - [GitHub - aditya-grover/node2vec](https://github.com/aditya-grover/node2vec)  
+    - [GitHub - VHRanger/nodevectors](https://github.com/VHRanger/nodevectors/blob/master/nodevectors/node2vec.py)  
+    - [NetworkX Documentation](https://networkx.org/documentation/stable/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html)
 
-**how to run it:**
+**Execution Instructions:**
 
-Run the ipynb notebook in Google Colab
+1. Execute the `milestone1.ipynb` notebook in Google Colab.
 
-OR
+   **- OR -**
 
-Clone this repository
+2. Clone this repository, navigate to the `Milestone1` directory in your terminal, and run the following commands:  
 
-Go to the Milestone1 directory in your terminal
-
-  docker build . -t {image_name:tag}
-  
+```shell
+docker build . -t {image_name:tag}
 docker run -it {image_name:tag}
-
-
-  
-  
+```
