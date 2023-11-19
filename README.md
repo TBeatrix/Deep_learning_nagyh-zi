@@ -7,6 +7,13 @@ Team Members:
 
 **Project Description:** Friend Recommendation using Graph Neural Networks on Facebook and Twitter Datasets
 
+## Milestone 2
+
+how to run the pipeline: You can run the pipeline from the milestone2.ipynb
+
+how to train and evaluate the models: At the end of the nodebooks there are to functions to train and evaluate.
+It runs the model on all the Facebook graph separetly and give back the average test score.
+
 ## Milestone 1
 Description of the repository contents:
 
@@ -26,6 +33,8 @@ Description of the repository contents:
 
 - **References:**  
   - J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS, 2012.
+  - https://arxiv.org/pdf/1611.07308.pdf
+  - 
 
 - **Code:**  
   - Node2Vec Node Preprocessing:
