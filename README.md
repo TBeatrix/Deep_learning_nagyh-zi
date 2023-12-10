@@ -12,7 +12,7 @@ The files of the final submisson are in the Final directory.
 - **dl_final.ipynb**: This file contains the data preprocessing, model training, evalution pahases of our implementation process.
 - **dl_hyper_opt.ipynb**: This file contains the hyperparameter optimization of the model.
 
-> [!NOTE]  
+> [!WARNING]  
 > Please be aware that due to Google Colab's transition from Python 3.9 to 3.10, our project is now only operational in a local environment or within a Docker container.
 
 - **Final** directory: This is the version of the code, that can run in a container with docker. It contains a Dockerfile.
