@@ -10,12 +10,25 @@ Team Members:
 # Final
 The files of the final submisson are in the Final directory. 
 - **dl_final.ipynb** Ez a fájl tartalmazza az elkészült kódokat.
+- **df_final_optimalization**
 
-
-
-
+  
+- **Final** directory: This is the version of the code, that can run in a container with docker. It contains a Dockerfile.
+    Within the directory, we can start the docker and build the environment with the following code (image_name and tag can be anything):
+    This also include the data acquisition step.
+    
+   **docker build . -t {image_name:tag}**
+  
+   After this we can run the code pipeline with the following command: 
+  
+  **docker run -it {image_name:tag}**
+  This will run the data preprocessing, the training and the evaluation. In will log the result of the data preprocessing and traingin in the console.
+  
+  This is a good demonstration, that our code can be ran in a docker. However **the results of the hiperparameter optimalization, the visualizations and the traing for the whole graph are only avaible in the notebooks.**
 ---
----
+
+
+
 ## Milestone 2
 
 how to run the pipeline: You can run the pipeline from the milestone2.ipynb
