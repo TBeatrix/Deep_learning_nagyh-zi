@@ -10,7 +10,7 @@ Team Members:
 # Final
 The files of the final submisson are in the Final directory. 
 - **dl_final.ipynb**: This file contains the data preprocessing, model training, evalution pahases of our implementation process.
-- **dl_hyper_opt.ipynb**: This file contains the hyperparameter optimization of the model.
+- **dl_final_hyper_opt.ipynb**: This file contains the hyperparameter optimization of the model.
 
 > [!WARNING]  
 > Please be aware that since Google Colab's upgrade from Python 3.9 to 3.10, which occurred on December 3, 2023, our project has been incompatible with their platform. Our project is now only operational in a local environment with Jupyter Notebooks or within a Docker container.
