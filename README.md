@@ -5,8 +5,17 @@ Team Members:
 - T63K63: Tugyi Beatrix  
 - IT9P0Z: Heizer Levente  
 
-**Project Description:** Friend Recommendation using Graph Neural Networks on Facebook and Twitter Datasets
+**Project Description:** Link Prediction with Graph Neural Networks on the Facebook dataset
 
+# Final
+The files of the final submisson are in the Final directory. 
+- **dl_final.ipynb** Ez a fájl tartalmazza az elkészült kódokat.
+
+
+
+
+---
+---
 ## Milestone 2
 
 how to run the pipeline: You can run the pipeline from the milestone2.ipynb
@@ -34,7 +43,6 @@ Description of the repository contents:
 - **References:**  
   - J. McAuley and J. Leskovec. Learning to Discover Social Circles in Ego Networks. NIPS, 2012.
   - https://arxiv.org/pdf/1611.07308.pdf
-  - 
 
 - **Code:**  
   - Node2Vec Node Preprocessing:
