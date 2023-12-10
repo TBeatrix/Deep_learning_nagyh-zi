@@ -9,10 +9,12 @@ Team Members:
 
 # Final
 The files of the final submisson are in the Final directory. 
-- **dl_final.ipynb** Ez a fájl tartalmazza az elkészült kódokat.
-- **df_final_optimalization**
+- **dl_final.ipynb**: This file contains the data preprocessing, model training, evalution pahases of our implementation process.
+- **dl_hyper_opt.ipynb**: This file contains the hyperparameter optimization of the model.
 
-  
+> [!NOTE]  
+> Please be aware that due to Google Colab's transition from Python 3.9 to 3.10, our project is now only operational in a local environment or within a Docker container.
+
 - **Final** directory: This is the version of the code, that can run in a container with docker. It contains a Dockerfile.
     Within the directory, we can start the docker and build the environment with the following code (image_name and tag can be anything):
     This also include the data acquisition step.
@@ -25,6 +27,8 @@ The files of the final submisson are in the Final directory.
   This will run the data preprocessing, the training and the evaluation. In will log the result of the data preprocessing and traingin in the console.
   
   This is a good demonstration, that our code can be ran in a docker. However **the results of the hiperparameter optimalization, the visualizations and the traing for the whole graph are only avaible in the notebooks.**
+
+
 ---
 
 
